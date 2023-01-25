@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="Image/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style/QR.css">
+   
+</head>
+
+<body>
+    <div class="main" data-aos="zoom-out-down">
+        <p> Generate QR Code </p>
+        <input type="text" class="input" value="" id="textvalue" placeholder="Paste Your Link Here">
+        <button class="btn">Generate</button>
+        <img src="Image/qr-code.png" alt="Your QR Code will be show here..." class="code" height="300" width="100">
+        <button class="minibtn" id="copy">Copy QR Code Link To Clipboard</button>
+        <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/srip" title="srip">srip</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+        <p id="note">Made with &#10084;&#65039; by Fun Games</p>
+    </div>
+    <div id="toast">Successfully Generated</div>
+
+    <!----  <a href="https://api.qrserver.com/v1/create-qr-code/?size=165x165&data=${data}" download="smile.jpg">Download image</a> -->
+
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 150,
+            duration: 500,
+        });
+    </script>
+</body>
+
+</html>
+
+
+
+<script src="Script.js/QRcode.js">
+
+</script>

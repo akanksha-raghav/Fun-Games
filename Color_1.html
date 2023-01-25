@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Color Code Generator</title>
+    <link rel="icon" href="Image/logo.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style/color.css">
+
+</head>
+
+<section class="wrapper">
+
+    <div class="max-screen">
+        <div class="container-fostrap">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="Menu.html">Fun Games</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </nav>
+        </div>
+
+        <div class="container">
+            <h2 class="text-center text-white pt-5">Random Color Picker</h2>
+            <div class="box">
+                <span id="bgc">#FFBBGG</span>
+            </div>
+            <div class="text-center">
+                <span><button type="button" class="btn btn-dark bg-dark text-white" onclick="myFuntion()">Change
+                        Color</button></span>
+                <button type="button" class="btn btn-dark bg-dark m-10" id="copy">Copy Color Code</button>
+                <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+            </div>
+ <p class="text-center text-white fs-5">Made with &#10084;&#65039; by <span
+                style="color: rgb(0, 37, 202); font-weight: 600;">Fun Games</span> </p>
+            <div id="toast">Successfully Generated</div>
+        </div>
+    </div>
+
+
+</section>
+<script src="Script.js/Color_1.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+<!-- AOS -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        offset: 150,
+        duration: 500,
+    });
+</script>
+
+</body>
+
+</html>
