@@ -1,5 +1,5 @@
 # Fun-Games
-<h3 align="center">This Open-Source repository is about making Any Random things or tools which is helpful in someways</h3>
+<h3 align="center">This Open-Source repository is about having fun wth games.</h3>
 
  
 ####  Open Source Instructions
